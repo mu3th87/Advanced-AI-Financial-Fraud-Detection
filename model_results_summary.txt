@@ -1,0 +1,19 @@
+Metrics
+Accuracy: 0.8280
+Precision: 0.7143
+Recall: 0.2885
+F1-score: 0.4110
+
+Confusion Matrix labels [No, Yes]:
+[[192   6]
+ [ 37  15]]
+
+Classification report:
+              precision    recall  f1-score   support
+
+          No      0.838     0.970     0.899       198
+         Yes      0.714     0.288     0.411        52
+
+    accuracy                          0.828       250
+   macro avg      0.776     0.629     0.655       250
+weighted avg      0.813     0.828     0.798       250

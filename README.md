@@ -9,6 +9,7 @@ account, or transaction information.
 ## Project Files
 
 - `fraud_detection_naive_bayes.py`: trains and evaluates the model.
+- `app.py`: interactive Streamlit web interface.
 - `financial_fraud_simulated_dataset.csv`: simulated dataset with 1,000 rows.
 - `model_results_summary.txt`: saved evaluation results.
 - `requirements.txt`: Python dependencies.
@@ -44,6 +45,18 @@ Install the dependencies and run the project:
 python -m pip install -r requirements.txt
 python fraud_detection_naive_bayes.py
 ```
+
+## Run the Web Interface
+
+After installing the dependencies, start the Streamlit app:
+
+```bash
+streamlit run app.py
+```
+
+Then open `http://localhost:8501` in your browser. Select the transaction
+details and click **Analyze transaction** to view the prediction and class
+probabilities.
 
 ## Saved Results
 

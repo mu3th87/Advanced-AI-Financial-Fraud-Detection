@@ -114,3 +114,14 @@ st.info(
     "Educational demonstration only. This model must not be used for real "
     "financial decisions."
 )
+
+st.divider()
+st.subheader("Project Team")
+st.write("This project was developed by:")
+st.markdown(
+    """
+- ABDALAZIZ DAWOD S HATHAH
+- MOHAMED MUQBIL ALI ALAZMI
+- MO'ATH MOHAMMAD ALI HUSSEIN
+"""
+)

@@ -65,6 +65,18 @@ st.caption(
     "Categorical Naive Bayes model trained on a fully simulated dataset."
 )
 
+st.subheader("Project Team")
+st.write("This project was developed by:")
+st.markdown(
+    """
+- ABDALAZIZ DAWOD S HATHAH
+- MOHAMED MUQBIL ALI ALAZMI
+- MO'ATH MOHAMMAD ALI HUSSEIN
+"""
+)
+
+st.divider()
+
 metric_columns = st.columns(4)
 for column, (name, value) in zip(metric_columns, metrics.items()):
     column.metric(name, f"{value:.3f}")
@@ -113,15 +125,4 @@ if st.button("Analyze transaction", type="primary", use_container_width=True):
 st.info(
     "Educational demonstration only. This model must not be used for real "
     "financial decisions."
-)
-
-st.divider()
-st.subheader("Project Team")
-st.write("This project was developed by:")
-st.markdown(
-    """
-- ABDALAZIZ DAWOD S HATHAH
-- MOHAMED MUQBIL ALI ALAZMI
-- MO'ATH MOHAMMAD ALI HUSSEIN
-"""
 )
